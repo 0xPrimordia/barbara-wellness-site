@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
   const openCalendly = () => {
     if (window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/rags-consignments/first-time-consult'
+        url: 'https://calendly.com/barbara-wellness/first-time-consult'
       });
     }
     return false;
@@ -236,7 +236,7 @@ const Contact: React.FC = () => {
           <div className="bg-white rounded-xl shadow-md p-6">
             <div 
               className="calendly-inline-widget" 
-              data-url="https://calendly.com/rags-consignments/first-time-consult"
+              data-url="https://calendly.com/barbara-wellness/first-time-consult"
               style={{ minWidth: '600px', height: '1200px' }}
             />
           </div>

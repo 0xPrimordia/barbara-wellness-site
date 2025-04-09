@@ -22,7 +22,7 @@ const CalendlyWidget: React.FC = () => {
       if (window.Calendly) {
         // Initialize badge widget
         window.Calendly.initBadgeWidget({
-          url: 'https://calendly.com/rags-consignments/first-time-consult',
+          url: 'https://calendly.com/barbara-wellness/first-time-consult',
           text: 'Schedule time with me',
           color: '#7a9e8e', // sage green to match logo
           textColor: '#ffffff'
