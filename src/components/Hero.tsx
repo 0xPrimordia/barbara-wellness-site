@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-sage-600/20 backdrop-blur-[2px]"></div>
         <img 
-          src="src/images/1317144530.jpg" 
+          src="dist/assets/images/1317144530.jpg" 
           alt="Serene bamboo forest background" 
           className="w-full h-full object-cover object-center"
         />
