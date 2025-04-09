@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm p-8 md:p-12 rounded-xl shadow-lg">
           <div className="flex justify-center mb-6">
             <img 
-              src="images/logo.png" 
+              src="assets/logo.png" 
               alt="Barbara White Wellness Logo" 
               className="h-24 w-auto rounded-full"
             />
