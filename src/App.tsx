@@ -72,7 +72,7 @@ function App() {
           <div className="flex items-center justify-between py-3">
             <div className="flex items-center">
               <img 
-                src="src/images/logo.png" 
+                src="/images/logo.png" 
                 alt="Barbara White Wellness Logo" 
                 className="h-12 w-auto mr-3 rounded-full"
               />

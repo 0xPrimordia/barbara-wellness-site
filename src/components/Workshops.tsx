@@ -65,7 +65,7 @@ const Workshops: React.FC = () => {
             {/* Consultation Area */}
             <div className="bg-white rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="src/images/space.jpg" 
+                src="/images/space.jpg" 
                 alt="Consultation area with comfortable chairs and plants" 
                 className="w-full h-64 object-cover object-center"
               />
@@ -81,7 +81,7 @@ const Workshops: React.FC = () => {
             {/* Treatment Room */}
             <div className="bg-white rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="src/images/space2.jpg" 
+                src="/images/space2.jpg" 
                 alt="Treatment room with massage table and calming decor" 
                 className="w-full h-64 object-cover object-center"
               />
