@@ -1,6 +1,4 @@
 import React from 'react';
-import { BookOpen } from 'lucide-react';
-
 interface WorkshopCardProps {
   title: string;
   description: string;
@@ -9,9 +7,7 @@ interface WorkshopCardProps {
 const WorkshopCard: React.FC<WorkshopCardProps> = ({ title, description }) => {
   return (
     <div className="bg-white p-8 rounded-lg shadow-md card-hover border-t-4 border-teal-500">
-      <div className="text-teal-600 mb-4">
-        <BookOpen size={36} />
-      </div>
+
       <h3 className="text-2xl font-semibold text-teal-800 mb-3">{title}</h3>
       <p className="text-slate-600">{description}</p>
     </div>
@@ -93,13 +89,6 @@ const Workshops: React.FC = () => {
                 </p>
               </div>
             </div>
-          </div>
-          
-          <div className="bg-teal-50 rounded-xl p-6 shadow-md">
-            <p className="text-slate-700 text-center">
-              Small class sizes ensure personal attention in these tranquil spaces, providing
-              an ideal environment for learning and experiencing Barbara's healing modalities.
-            </p>
           </div>
         </div>
       </div>

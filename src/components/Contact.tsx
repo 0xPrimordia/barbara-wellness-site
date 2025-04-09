@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, Mail, MapPin, Phone } from 'lucide-react';
+import { Calendar, Clock, Mail, MapPin, Phone, Video } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -149,29 +149,42 @@ const Contact: React.FC = () => {
             <div>
               <div className="bg-white p-8 rounded-lg shadow-md mb-8">
                 <h3 className="text-2xl font-bold text-slate-800 mb-6">Pricing Information</h3>
-                <div className="space-y-4">
-                  <div className="border-b border-slate-200 pb-4">
-                    <div className="flex justify-between items-center">
-                      <p className="font-semibold text-slate-800">60 Minute Session</p>
-                      <p className="text-sage-600 font-bold">$90</p>
+                <div className="space-y-6">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-teal-50 p-4 rounded-lg">
+                      <p className="text-lg font-semibold text-slate-800">30 Minutes</p>
+                      <p className="text-2xl font-bold text-sage-600">$85</p>
                     </div>
-                    <p className="text-sm text-slate-600 mt-1">Standard integrative bodywork session</p>
+                    <div className="bg-teal-50 p-4 rounded-lg">
+                      <p className="text-lg font-semibold text-slate-800">60 Minutes</p>
+                      <p className="text-2xl font-bold text-sage-600">$150</p>
+                    </div>
+                    <div className="bg-teal-50 p-4 rounded-lg">
+                      <p className="text-lg font-semibold text-slate-800">90 Minutes</p>
+                      <p className="text-2xl font-bold text-sage-600">$225</p>
+                    </div>
+                    <div className="bg-teal-50 p-4 rounded-lg">
+                      <p className="text-lg font-semibold text-slate-800">120 Minutes</p>
+                      <p className="text-2xl font-bold text-sage-600">$300</p>
+                    </div>
                   </div>
-                  
-                  <div className="border-b border-slate-200 pb-4">
-                    <div className="flex justify-between items-center">
-                      <p className="font-semibold text-slate-800">90 Minute Session</p>
-                      <p className="text-sage-600 font-bold">$130</p>
+
+                  <div className="pt-4 border-t border-slate-200">
+                    <div className="flex items-center gap-2 mb-3">
+                      <MapPin className="text-sage-600" size={20} />
+                      <p className="text-slate-700 font-medium">Outcalls available for an extra charge</p>
                     </div>
-                    <p className="text-sm text-slate-600 mt-1">Extended care for deeper relaxation</p>
-                  </div>
-                  
-                  <div>
-                    <div className="flex justify-between items-center">
-                      <p className="font-semibold text-slate-800">Specialized Therapy</p>
-                      <p className="text-sage-600 font-bold">$110+</p>
+                    
+                    <div className="flex flex-col gap-3">
+                      <div className="flex items-center gap-2">
+                        <Phone className="text-sage-600" size={20} />
+                        <p className="text-slate-700">Phone sessions available</p>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Video className="text-sage-600" size={20} />
+                        <p className="text-slate-700">Video call sessions available</p>
+                      </div>
                     </div>
-                    <p className="text-sm text-slate-600 mt-1">Specialized treatments like Cranial Sacral or Pranic Healing</p>
                   </div>
                 </div>
               </div>
@@ -214,6 +227,18 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Calendly Embed */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Schedule a Session</h3>
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <div 
+              className="calendly-inline-widget" 
+              data-url="https://calendly.com/rags-consignments/first-time-consult"
+              style={{ minWidth: '600px', height: '1200px' }}
+            />
           </div>
         </div>
       </div>

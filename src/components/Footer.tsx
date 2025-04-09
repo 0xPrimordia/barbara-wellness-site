@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
           <div className="text-center md:text-left">
             <h3 className="text-xl font-semibold mb-4">Connect</h3>
             <p className="text-slate-300 mb-2">
-              Call: (512) 555-1234
+              <a href='tel:5127674015'>Call (512) 767-4015</a>
             </p>
             <p className="text-slate-300 mb-4">
               Email: barbara@whitewellness.com

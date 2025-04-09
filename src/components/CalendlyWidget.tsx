@@ -20,6 +20,7 @@ const CalendlyWidget: React.FC = () => {
     script.async = true;
     script.onload = () => {
       if (window.Calendly) {
+        // Initialize badge widget
         window.Calendly.initBadgeWidget({
           url: 'https://calendly.com/rags-consignments/first-time-consult',
           text: 'Schedule time with me',
@@ -35,10 +36,15 @@ const CalendlyWidget: React.FC = () => {
       document.head.removeChild(link);
       document.body.removeChild(script);
       
-      // Remove the Calendly widget if it exists
-      const calendlyWidget = document.querySelector('.calendly-badge-widget');
-      if (calendlyWidget) {
-        calendlyWidget.remove();
+      // Remove the Calendly widgets if they exist
+      const calendlyBadge = document.querySelector('.calendly-badge-widget');
+      if (calendlyBadge) {
+        calendlyBadge.remove();
+      }
+      
+      const calendlyInline = document.querySelector('.calendly-inline-widget');
+      if (calendlyInline) {
+        calendlyInline.innerHTML = '';
       }
     };
   }, []);

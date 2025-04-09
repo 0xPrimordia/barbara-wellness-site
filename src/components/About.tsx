@@ -3,7 +3,7 @@ import React from 'react';
 const About: React.FC = () => {
   return (
     <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      {/* <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="section-heading text-center">About Barbara</h2>
           <div className="mt-10 bg-teal-50 rounded-xl p-8 shadow-md">
@@ -36,7 +36,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
