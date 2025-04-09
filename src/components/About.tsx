@@ -11,7 +11,7 @@ const About: React.FC = () => {
               <div className="md:w-1/3">
                 <div className="h-64 w-64 rounded-full overflow-hidden mx-auto shadow-lg">
                   <img 
-                    src="https://mocha-cdn.com/01961aeb-e834-7edf-bda1-9f61246c8c13/About-Barbara.jpg" 
+                    src="/images/About-Barbara.jpg" 
                     alt="Barbara White, Wellness Practitioner" 
                     className="w-full h-full object-cover object-center"
                   />

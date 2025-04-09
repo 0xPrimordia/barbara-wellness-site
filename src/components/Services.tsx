@@ -63,7 +63,7 @@ const Services: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-slate-50/90"></div>
         <img 
-          src="dist/assets/Workshops-and-Classes.jpeg" 
+          src="/images/Workshops-and-Classes.jpeg" 
           alt="Peaceful bamboo forest background" 
           className="w-full h-full object-cover object-center"
         />

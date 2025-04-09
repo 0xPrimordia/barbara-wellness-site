@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex flex-col items-center md:items-start mb-4">
               <img 
-                src="https://mocha-cdn.com/01961aeb-e834-7edf-bda1-9f61246c8c13/ChatGPT-Image-Apr-9-2025-Logo-Creati.png" 
+                src="/images/logo.png" 
                 alt="Barbara White Wellness Logo" 
                 className="h-16 w-auto mb-3"
               />

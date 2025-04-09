@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-sage-600/20 backdrop-blur-[2px]"></div>
         <img 
-          src="dist/assets/images/1317144530.jpg" 
+          src="/images/1317144530.jpg" 
           alt="Serene bamboo forest background" 
           className="w-full h-full object-cover object-center"
         />
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm p-8 md:p-12 rounded-xl shadow-lg">
           <div className="flex justify-center mb-6">
             <img 
-              src="assets/logo.png" 
+              src="/images/logo.png" 
               alt="Barbara White Wellness Logo" 
               className="h-24 w-auto rounded-full"
             />

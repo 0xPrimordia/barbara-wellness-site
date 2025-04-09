@@ -114,7 +114,7 @@ function App() {
         <div className="fixed inset-0 z-40 bg-white pt-20 pb-6 px-6 md:hidden overflow-y-auto">
           <div className="flex justify-center mb-6">
             <img 
-              src="https://mocha-cdn.com/01961aeb-e834-7edf-bda1-9f61246c8c13/ChatGPT-Image-Apr-9-2025-Logo-Creati.png" 
+              src="/images/logo.png" 
               alt="Barbara White Wellness Logo" 
               className="h-20 w-auto"
             />
