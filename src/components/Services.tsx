@@ -84,6 +84,51 @@ const Services: React.FC = () => {
             />
           ))}
         </div>
+
+        {/* Practice Space Section */}
+        <div className="mt-20 max-w-6xl mx-auto">
+          <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Barbara Wellness Center</h3>
+          <p className="text-slate-700 mb-12 text-center max-w-3xl mx-auto">
+            Experience healing in a tranquil environment surrounded by nature. Our studio is designed 
+            to provide a peaceful sanctuary for your wellness journey.
+          </p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Main Image */}
+            <div className="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+              <img 
+                src="/images/house.jpg" 
+                alt="Peaceful studio entrance surrounded by trees" 
+                className="w-full h-[400px] object-cover" 
+                style={{ objectPosition: '0 80%' }}
+              />
+              <div className="p-6">
+                <h4 className="text-lg font-semibold text-sage-600 mb-2">Serene Studio Setting</h4>
+                <p className="text-slate-600">
+                  Nestled among trees, our studio provides a peaceful retreat where nature and healing come together. 
+                  The elevated deck and natural surroundings create a calming atmosphere from the moment you arrive.
+                </p>
+              </div>
+            </div>
+
+            {/* Entrance Image */}
+            <div className="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+              <img 
+                src="/images/kitty.jpg" 
+                alt="Welcoming studio entrance with plants" 
+                className="w-full h-[400px] object-cover"
+                style={{ objectPosition: '0 65%' }}
+              />
+              <div className="p-6">
+                <h4 className="text-lg font-semibold text-sage-600 mb-2">Welcoming Entrance</h4>
+                <p className="text-slate-600">
+                  The studio entrance is adorned with lush plants and natural elements, creating an 
+                  inviting space that helps you transition from the outside world into a state of relaxation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
